@@ -30,3 +30,7 @@ let yearOfAmericanIndependence: number = 1776;
 let amIAMale: boolean = true;
 let isStarWarsAwesome: boolean = true;
 let isGeorgeInMenInBlack: boolean = true;
+let isAwesome: boolean = false;
+isAwesome = true;
+
+// Data type errors in TypeScript will not crash the app during development, rather it will throw errors, however, during build, it will crash.
