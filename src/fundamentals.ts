@@ -20,3 +20,13 @@ let simpleStringUpper: string = simpleString.toUpperCase();
 let simpleStringLower: string = simpleString.toLowerCase();
 
 console.log(simpleString, simpleStringLower, simpleStringUpper);
+
+// Declare a number
+let numberOfFeetInAMile: number = 5280;
+let numberOfYardsInAMile: number = 1760;
+let yearOfAmericanIndependence: number = 1776;
+
+// Declare a boolean
+let amIAMale: boolean = true;
+let isStarWarsAwesome: boolean = true;
+let isGeorgeInMenInBlack: boolean = true;
