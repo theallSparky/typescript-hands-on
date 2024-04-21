@@ -54,3 +54,4 @@ let schoolItems3: { readonly title: string; cost?: number }[] = [
   notebook,
 ];
 //schoolItems3[0].title  "something cool" <-- Would not work because schoolItems3 is set to readonly
+schoolItems3.push({ title: "A very cool title" }); // Does not add a cost since cost?: number
