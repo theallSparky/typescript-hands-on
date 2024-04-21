@@ -18,8 +18,8 @@ function addThree(number: number) {
   let anotherNumber: number = 3;
   return number + anotherNumber;
 }
-const result: number = addThree(3);
-const someValue = result;
+const answer: number = addThree(3);
+const someValue = answer;
 
 const names: string[] = ["john", "jacob", "jingleheimer", "schmidt"];
 
