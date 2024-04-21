@@ -22,3 +22,22 @@ function createUser(user: User) {
   );
   return user;
 }
+
+//Another example of type aliasing using a union operator
+type stringOrNumber = string | number;
+let value: stringOrNumber;
+value = "hey ho hi hum";
+value = 5;
+
+// An example using light mode and dark mode
+type Theme = "light" | "dark";
+let theme: Theme;
+theme = "dark";
+theme = "light";
+
+function setTheme(t: Theme) {
+  theme = t;
+}
+
+setTheme("light");
+setTheme("dark");
