@@ -7,6 +7,11 @@ import "./union.ts";
 import "./arrays.ts";
 import "./functions.ts";
 import "./sum.ts";
+import "./objects.ts";
+import "./typeAlias.ts";
+import "./intersectionType.ts";
+import "./interface.ts";
+import "./interfaceExtendMerge.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
