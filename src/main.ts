@@ -6,6 +6,7 @@ import "./fundamentals.ts";
 import "./union.ts";
 import "./arrays.ts";
 import "./functions.ts";
+import "./sum.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
