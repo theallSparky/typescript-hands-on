@@ -29,5 +29,8 @@ for (let book of listOfBooks) {
     break;
   }
 }
-console.log(foundBook?.toUpperCase()); // we add the '?' after the variable name when using methods since undefined is a possible type
+console.log(
+  `${foundBook?.charAt(0).toUpperCase()}` +
+    `${foundBook?.slice(1).toLowerCase()}`
+); // we add the '?' after the variable name when using methods since undefined is a possible type
 console.log(foundBook?.length);
