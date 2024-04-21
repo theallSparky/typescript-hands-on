@@ -13,6 +13,7 @@ import "./intersectionType.ts";
 import "./interface.ts";
 import "./interfaceExtendMerge.ts";
 import "./tuples.ts";
+import "./enums.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
