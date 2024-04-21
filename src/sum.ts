@@ -42,3 +42,7 @@ const newStudent = {
   name: "Timtim-timmehhhhh", // Obligatory South Park reference
 };
 console.log(createStudent(newStudent));
+createStudent({ id: 6, name: "Billy Bob" });
+createStudent({ id: 7, name: "Billy Bob Joe" });
+createStudent({ id: 8, name: "Billy Bob Thornton" });
+createStudent({ id: 9, name: "Tommy Lee Jones" });
