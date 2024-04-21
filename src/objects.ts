@@ -29,6 +29,7 @@ let backpack: { title: string; cost: number } = {
 };
 let notebook: { title: string } = { title: "notebook" };
 
+// Below is a few different yet similar examples of arrays of objects
 let schoolItems1: { title: string; cost: number }[] = [
   book,
   pen,
