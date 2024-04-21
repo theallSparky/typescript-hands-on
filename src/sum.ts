@@ -5,7 +5,7 @@ function sum(message: string, ...numbers: number[]): string {
   let total = numbers.reduce((prev, current) => {
     return prev + current;
   }, 0);
-  return `${message} ${numbers}`;
+  return `${message} ${total}`;
 }
 
 let result = sum("The total is: ", 1, 2, 3, 4, 5);
