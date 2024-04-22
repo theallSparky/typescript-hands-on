@@ -1,4 +1,5 @@
 import newStudent, { sayHello, person, Student } from "./modules.ts";
+// import { someValue } from "./example.js";
 
 sayHello("TypeScript test 434");
 console.log(newStudent);
