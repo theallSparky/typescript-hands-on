@@ -15,6 +15,7 @@ import "./interfaceExtendMerge.ts";
 import "./tuples.ts";
 import "./enums.ts";
 import "./typeNever.ts";
+import "./newStudentFile.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
