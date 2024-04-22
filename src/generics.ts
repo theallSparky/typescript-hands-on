@@ -19,3 +19,16 @@ const genericString: genericInterface<string> = {
     return this.value;
   },
 };
+
+// Working with an async function, which returns a promise
+async function someFunc(): Promise<string> {
+  return "Hello world";
+}
+
+// createArray<string>(3, "hello"); //['hello', 'hello', 'hello']
+// createArray<number>(4, 100); // [100, 100, 100, 100]
+
+// function generateStringArray(length: number, value: string): string[] {
+//   let result: string[] = [];
+//   result = Array(length).fill(value);
+// }
